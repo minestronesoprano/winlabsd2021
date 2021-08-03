@@ -1,0 +1,42 @@
+html {
+  background-image:url("/static/pictures/130061.png");
+  background-attachment: fixed;
+  color: black;
+  font-family: fantasy;
+  max-width: 800px;
+  display:flex;
+  margin: auto;
+}
+
+body, img {
+
+  border: 3px black;
+  border-style: double;
+
+}
+
+body {
+  padding: 16px;
+  flex-direction: column;
+  flex 0 1 600px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  background-color: transparent;
+
+}
+
+img {
+  height: 200px;
+  width: 200px;
+}
+
+a{
+  color: gray;
+}
+
+p{
+font-family:Verdana;
+font-size: 12px;
+}
