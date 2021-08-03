@@ -14,4 +14,4 @@ image.addEventListener("mouseleave", (e) =>{
 
 });
 
-image.addEventListener("click", (e) =>)
+//image.addEventListener("click", (e) =>)
