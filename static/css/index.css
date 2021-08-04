@@ -17,7 +17,7 @@ body {
   margin-right: auto;
   margin-top: 0px;
   margin-bottom: 0px;
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(0, 0, 0, 0.85);
   text-align: center;
   color: white;
 }
@@ -39,6 +39,11 @@ div {
 img {
   height: 300px;
 
+}
+
+#dim {
+  border: 1px solid darkblue;
+ 
 }
 
 a{
