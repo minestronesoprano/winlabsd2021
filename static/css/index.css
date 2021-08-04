@@ -3,7 +3,7 @@ html {
   background-attachment: fixed;
   color: gray;
   font-family: "Futura", sans-serif;
-  max-width: 800px;
+  max-width: 1100px;
   display:flex;
   margin: auto;
 }
@@ -15,8 +15,7 @@ body {
   flex 0 1 600px;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 25px;
-  margin-bottom: 25px;
+  margin-top: 0px;
   background-color: rgba(0, 0, 0, 0.8);
   text-align: center;
   color: white;
@@ -37,7 +36,7 @@ div {
 
 
 img {
-  height: 200px;
+  height: 300px;
 
 }
 
@@ -47,7 +46,7 @@ a{
 
 p{
 font-family:Futura;
-font-size: 12px;
-margin-bottom: 50px;
-margin-top: 25px;
+font-size: 1m;
+margin: 100px;
+margin-top: 50px;
 }
