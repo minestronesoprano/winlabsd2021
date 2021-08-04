@@ -8,12 +8,6 @@ html {
   margin: auto;
 }
 
-body, img {
-
-  border: 3px black;
-  border-style: double;
-
-}
 
 body {
   padding: 16px;
@@ -24,7 +18,7 @@ body {
   margin-top: 25px;
   margin-bottom: 25px;
   background-color: transparent;
-
+  text-align: center;
 }
 
 img {
