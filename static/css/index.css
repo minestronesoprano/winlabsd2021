@@ -1,7 +1,7 @@
 html {
-  background-image:url("/winlabsd2021/static/imgs/130061.png");
+  background-image:url("/winlabsd2021/static/imgs/map-bg2.jpg");
   background-attachment: fixed;
-  color: black;
+  color: gray;
   font-family: "Futura", sans-serif;
   max-width: 800px;
   display:flex;
@@ -19,7 +19,7 @@ body {
   margin-bottom: 25px;
   background-color: rgba(0, 0, 0, 0.8);
   text-align: center;
-  color: gray;
+  color: white;
 }
 
 
@@ -27,7 +27,7 @@ body {
     margin:0px 10px;
     display:inline-block;
     text-decoration:none;
-    color:gray;
+    color:white;
 }
 
 div {
