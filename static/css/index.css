@@ -21,9 +21,23 @@ body {
   text-align: center;
 }
 
+
+.many-pics figure{
+    margin:0px 10px;
+    display:inline-block;
+    text-decoration:none;
+    color:black;
+}
+
+div {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+
 img {
   height: 200px;
-  width: 200px;
+
 }
 
 a{
@@ -33,4 +47,6 @@ a{
 p{
 font-family:Verdana;
 font-size: 12px;
+margin-bottom: 50px;
+margin-top: 25px;
 }
