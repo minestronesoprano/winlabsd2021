@@ -2,7 +2,7 @@ html {
   background-image:url("/winlabsd2021/static/imgs/130061.png");
   background-attachment: fixed;
   color: black;
-  font-family: fantasy;
+  font-family: "Futura", sans-serif;
   max-width: 800px;
   display:flex;
   margin: auto;
@@ -46,7 +46,7 @@ a{
 }
 
 p{
-font-family:Verdana;
+font-family:Futura;
 font-size: 12px;
 margin-bottom: 50px;
 margin-top: 25px;
