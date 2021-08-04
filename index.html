@@ -1,6 +1,4 @@
 <!--
-Copyright 2017 Google Inc.
-
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
 You may obtain a copy of the License at
@@ -18,7 +16,8 @@ limitations under the License.
 <head>
   <meta charset="utf-8">
   <title>Blogasaurus Home</title>
-  <link rel="stylesheet" href="/winlabsd2021/static/css/index.css">
+  <!-- <link rel="stylesheet" href="/winlabsd2021/static/css/index.css"> -->
+  <link rel="stylesheet" href="/Users/mayashankar/winlabsd2021/static/css/index.css">
 </head>
 <body>
   <div id="body">
@@ -38,22 +37,32 @@ limitations under the License.
       </div>
       <div id="pipeline-raw">
         <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png" alt="raw image">
-        <p>We use a raw image to do stuff. please add top and bottom margins to these things so they look nice</p>
+        <p>Our image data is largely dashcam images taken in New York City.
+          The images were captured in all five boroughs and at all times of day.
+          Images provided by Nexar.</p>
         <p>Next Image</p>
       </div>
       <div id="pipeline-dim">
         <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png" alt="raw image">
-        <p>We take out dim images</p>
+        <p>We noticed that the object detection model was havinng trouble identifying people in dim images.
+          To make the results more clear, we sorted our pictures by time. Any pictures taken at night were
+          discarded as no people would be detected. </p>
         <p>Previous Image - Next Image</p>
       </div>
       <div id="pipeline-yolo">
         <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png" alt="raw image">
-        <p>We use YOLO to do stuff</p>
+        <p>We ran the YOLOv3 object detection model on our images.
+          We paired this with a script to draw colorful boxes around any human YOLO detected.
+          We sorted out any images where YOLO detected no people, including images with only
+        blurry or partial representations of people.</p>
         <p>Previous Image - Next Image</p>
       </div>
       <div id="pipeline-patch">
         <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png" alt="raw image">
-        <p>We use a super-res patch to do stuff</p>
+        <p>One idea we tried was cropping the image around the detected people with a script.
+          We ran these image patches through a program to increase the resolution of the patches.
+          Between these four super-resolution methods, ESPCN worked the best,
+          because we detected the most people with this method.</p>
       </div>
       <div id="pipeline-final">
         <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png" alt="raw image">
@@ -72,11 +81,3 @@ limitations under the License.
     </div>
   </body>
   </html>
-  
-  
-  <!-- A background color other than white on an element.
-  A border.
-  A font color other than black.
-  A sans-serif font.
-  Rounded borders on an element (note: the element must have either a border or a background color to see the rounded border).
--->
