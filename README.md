@@ -1,3 +1,3 @@
 # winlabsd2021
 
-Link to site: https://mshankar58.github.io/winlabsd2021/
+Project website for Summer 2021 project
